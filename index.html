@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Spkr - The Best Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music">
+            <div class="logo">
+                <h1>Spkr</h1>
+                <p>The Best Music Player NCS</p>
+            </div>
+            <div class="musicas borda">
+                <div class="msc1 msc">
+                    <img src="https://i1.sndcdn.com/artworks-zyZUp4Du4sKPgXZJ-zFyTQA-t500x500.jpg">
+                    <div class="title-msc">
+                        <h1 id="t1">On & On</h1>
+                        <p id="c1">Cartoon (feat. Daniel Levi)</p>
+                    </div>
+                    <div class="img">
+                        <p>3:28</p>
+                    </div>  
+                </div>
+                <div class="msc2 msc">
+                    <img src="https://i1.sndcdn.com/artworks-zyZUp4Du4sKPgXZJ-zFyTQA-t500x500.jpg">
+                    <div class="title-msc">
+                        <h1 id="t2">All For You</h1>
+                        <p id="c2">Itro (feat. SILIAS)</p>
+                    </div>
+                    <div class="img">
+                        <p>3:33</p>
+                    </div>
+                </div>
+                <div class="msc3 msc">
+                    <img src="https://i1.sndcdn.com/artworks-zyZUp4Du4sKPgXZJ-zFyTQA-t500x500.jpg">
+                    <div class="title-msc">
+                        <h1 id="t3">Biggest</h1>
+                        <p id="c3">NCS Mashup</p>
+                    </div>
+                    <div class="img">
+                        <p>3:50</p>
+                    </div>
+                </div>
+                <div class="msc4 msc">
+                    <img src="https://i1.sndcdn.com/artworks-zyZUp4Du4sKPgXZJ-zFyTQA-t500x500.jpg">
+                    <div class="title-msc">
+                        <h1 id="t4">fearless</h1>
+                        <p id="c4">yanvince</p>
+                    </div>
+                    <div class="img">
+                        <p>3:04</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="player borda">
+            <div class="imageMsc"></div>
+            <div class="titlePlayer"><p id="pPlay"></p></div>
+            <div class="cantor"><p id="pCantor"></p></div>
+        </div>
+        <div class="footer">
+            <div class="imgP"></div>
+            <h1 id="titlee"></h1>
+            <p id="cantorr"></p>
+            <div class="button">
+                <div class="voltar btn"></div>
+                <div class="play btn"></div>
+                <div class="seguir btn"></div> 
+            </div>
+            <div id="font">
+                <button id="increase-font" class="font">A+</button>
+                <button id="decrease-font" class="font">A-</button>
+            </div>
+            <div class="mute"></div>
+            <input type="range" class="volSlider" min="0" max="1" step="0.01" value="1">
+        </div>
+        <audio src="" id="audio">
+        </audio>
+        
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
