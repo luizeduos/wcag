@@ -162,7 +162,7 @@
     color: #9900ff;
 }
 
-.imageMsc, .imgP {
+.imageMsc {
     transform: rotate(-15deg);
     position:relative;
     -webkit-animation: rodaroda 5s linear alternate 3;
@@ -282,7 +282,7 @@ input[type="range"]::-webkit-slider-thumb {
     left: 80px;
     color: #fff;
     font-size: 16px;
-    bottom: 30px;
+    bottom: 35px;
 }
 
 #cantorr {
@@ -290,7 +290,7 @@ input[type="range"]::-webkit-slider-thumb {
     left: 80px;
     color: #fff;
     font-size: 12px;
-    bottom: 15px;
+    bottom: 23px;
 }
 
 .pause {

@@ -15,8 +15,11 @@ voltarBtn.addEventListener('click', function() {
 playBtn.addEventListener('click', function() {
     if (audio.paused) {
         audio.play(); // Inicia a música
+        imageMsc.style.animationPlayState = 'running';
+            
     } else {
         audio.pause(); // Pausa a música
+        imageMsc.style.animationPlayState = 'paused';
     }
 });
 
@@ -140,8 +143,3 @@ document.querySelector('.logo').onclick = function() {
     window.open('#', '_self');
 }
 
-if (imageMsc.style.animationPlayState === 'running' || imageMsc.style.animationPlayState === '') {
-        imageMsc.style.animationPlayState = 'paused';
-    } else {
-        imageMsc.style.animationPlayState = 'running';
-    }
