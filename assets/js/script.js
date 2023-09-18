@@ -139,3 +139,9 @@ decreaseFontButton.addEventListener('click', function() {
 document.querySelector('.logo').onclick = function() {
     window.open('#', '_self');
 }
+
+if (imageMsc.style.animationPlayState === 'running' || imageMsc.style.animationPlayState === '') {
+        imageMsc.style.animationPlayState = 'paused';
+    } else {
+        imageMsc.style.animationPlayState = 'running';
+    }
